@@ -1,0 +1,67 @@
+/* Background */
+body{
+    margin:0;
+    padding:30px;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+/* Heading */
+h1{
+    color:#0077ff;
+}
+
+/* Card */
+.card{
+    width:320px;
+    background:white;
+    margin:20px auto;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Image */
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* Paragraph */
+.card p{
+    color:#555;
+}
+
+/* Button */
+button{
+    background:#0077ff;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#0056cc;
+}
+
+/* Flexbox */
+.skills{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+/* Skill Card */
+.skill{
+    background:white;
+    padding:15px 25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    font-weight:bold;
+}
